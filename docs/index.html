@@ -1,65 +1,45 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>XFT API Documentation</title>
-   <link rel="stylesheet" href="style.css">
-</head>
-<body>
-   <nav class="sidebar">
-       <div class="logo">XFT API Docs</div>
+---
+layout: default
+title: Home
+---
 
-       <div class="nav-section">
-           <div class="nav-title">Getting Started</div>
-           <div class="nav-items">
-               <a href="api-overview.html">API Overview</a>
-               <a href="guides/README.html">Integration Guide</a>
-               <a href="examples/README.html">Code Examples</a>
-           </div>
-       </div>
+<h1>XFT API Documentation</h1>
 
-       <div class="nav-section">
-           <div class="nav-title">APIs</div>
-           <div class="nav-items">
-               <a href="accounts-api.html">Accounts API</a>
-               <a href="core-functionality.html">Core Functionality</a>
-               <a href="crypto-deposits-api.html">Crypto Deposits</a>
-               <a href="crypto-payouts-api.html">Crypto Payouts</a>
-           </div>
-       </div>
-   </nav>
+<p>XFT provides a permissionless yield-bearing stablecoin infrastructure for institutions. Our APIs enable seamless integration with the XFT ecosystem.</p>
 
-   <main class="content">
-       <h1>Welcome to XFT API Documentation</h1>
-       <p>Welcome to XFT's API documentation. XFT provides a permissionless yield-bearing stablecoin infrastructure for institutions. This documentation covers all APIs needed to integrate with our platform.</p>
+<h2>Getting Started</h2>
 
-       <h2>Quick Start</h2>
-       <p>To get started with XFT APIs:</p>
-       <ul>
-           <li>Review the <a href="api-overview.html">API Overview</a></li>
-           <li>Check out our <a href="examples/README.html">Code Examples</a></li>
-           <li>Read the detailed <a href="guides/README.html">Integration Guide</a></li>
-       </ul>
+<div class="endpoint">
+    <span class="method">1</span>
+    <p>Review the <a href="/docs/content/api/overview">API Overview</a></p>
+</div>
 
-       <h2>Available APIs</h2>
-       <div class="endpoint">
-           <span class="method get">GET</span>
-           <code>/v1/accounts</code>
-           <p>View and manage XFT accounts</p>
-       </div>
+<div class="endpoint">
+    <span class="method">2</span>
+    <p>Follow the <a href="/docs/content/guides/">Integration Guide</a></p>
+</div>
 
-       <div class="endpoint">
-           <span class="method post">POST</span>
-           <code>/v1/deposits</code>
-           <p>Handle crypto deposits</p>
-       </div>
+<div class="endpoint">
+    <span class="method">3</span>
+    <p>Check <a href="/docs/content/examples/">Code Examples</a></p>
+</div>
 
-       <div class="endpoint">
-           <span class="method post">POST</span>
-           <code>/v1/payouts</code>
-           <p>Process crypto payouts</p>
-       </div>
-   </main>
-</body>
-</html>
+<h2>Core APIs</h2>
+
+<div class="endpoint">
+    <span class="method">GET</span>
+    <code>/v1/accounts</code>
+    <p>Account management operations</p>
+</div>
+
+<div class="endpoint">
+    <span class="method">POST</span>
+    <code>/v1/deposits</code>
+    <p>Handle crypto deposits</p>
+</div>
+
+<div class="endpoint">
+    <span class="method">POST</span>
+    <code>/v1/payouts</code>
+    <p>Process crypto payouts</p>
+</div>
