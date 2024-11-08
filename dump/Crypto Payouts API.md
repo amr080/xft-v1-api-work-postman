@@ -1,0 +1,3 @@
+Reading file collections/Crypto Payouts API.postman_collection.json
+Generating markdown file ...
+Documentation was created correctly collections/Crypto Payouts API.md

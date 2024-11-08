@@ -1,0 +1,3 @@
+Reading file collections/Crypto Deposits API.postman_collection.json
+Generating markdown file ...
+Documentation was created correctly collections/Crypto Deposits API.md

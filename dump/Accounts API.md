@@ -1,0 +1,3 @@
+Reading file collections/Accounts API.postman_collection.json
+Generating markdown file ...
+Documentation was created correctly collections/Accounts API.md
