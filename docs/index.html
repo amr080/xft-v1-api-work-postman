@@ -1,4 +1,151 @@
-## Quick Start
-- [Setup Guide](guides/setup.md)
-- [API Overview](endpoints/api-overview.md)
-- [Code Examples](examples/basic-usage.md)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>XFT API Documentation</title>
+   <style>
+       * {
+           margin: 0;
+           padding: 0;
+           box-sizing: border-box;
+       }
+
+       body {
+           font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+           line-height: 1.6;
+           display: flex;
+           min-height: 100vh;
+       }
+
+       .sidebar {
+           width: 260px;
+           background: #f8f9fa;
+           padding: 2rem;
+           border-right: 1px solid #dee2e6;
+           position: fixed;
+           height: 100vh;
+           overflow-y: auto;
+       }
+
+       .content {
+           flex: 1;
+           padding: 2rem;
+           margin-left: 260px;
+           max-width: 800px;
+       }
+
+       .logo {
+           font-size: 1.5rem;
+           font-weight: bold;
+           margin-bottom: 2rem;
+           color: #0d6efd;
+       }
+
+       .nav-section {
+           margin-bottom: 1.5rem;
+       }
+
+       .nav-title {
+           font-size: 0.8rem;
+           text-transform: uppercase;
+           color: #6c757d;
+           margin-bottom: 0.5rem;
+       }
+
+       .nav-items a {
+           display: block;
+           padding: 0.5rem 0;
+           color: #212529;
+           text-decoration: none;
+           font-size: 0.9rem;
+       }
+
+       .nav-items a:hover {
+           color: #0d6efd;
+       }
+
+       .endpoint {
+           margin-bottom: 2rem;
+           padding: 1rem;
+           border: 1px solid #dee2e6;
+           border-radius: 4px;
+       }
+
+       .method {
+           display: inline-block;
+           padding: 0.25rem 0.5rem;
+           border-radius: 4px;
+           font-weight: bold;
+           margin-right: 0.5rem;
+       }
+
+       .method.get { background: #e3f2fd; color: #0d47a1; }
+       .method.post { background: #e8f5e9; color: #1b5e20; }
+       .method.delete { background: #ffebee; color: #b71c1c; }
+
+       code {
+           background: #f8f9fa;
+           padding: 0.2rem 0.4rem;
+           border-radius: 4px;
+           font-size: 0.9em;
+       }
+   </style>
+</head>
+<body>
+   <nav class="sidebar">
+       <div class="logo">XFT API Docs</div>
+
+       <div class="nav-section">
+           <div class="nav-title">Getting Started</div>
+           <div class="nav-items">
+               <a href="api-overview.html">API Overview</a>
+               <a href="guides/README.html">Integration Guide</a>
+               <a href="examples/README.html">Code Examples</a>
+           </div>
+       </div>
+
+       <div class="nav-section">
+           <div class="nav-title">APIs</div>
+           <div class="nav-items">
+               <a href="accounts-api.html">Accounts API</a>
+               <a href="core-functionality.html">Core Functionality</a>
+               <a href="crypto-deposits-api.html">Crypto Deposits</a>
+               <a href="crypto-payouts-api.html">Crypto Payouts</a>
+           </div>
+       </div>
+   </nav>
+
+   <main class="content">
+       <h1>Welcome to XFT API Documentation</h1>
+       <p>Welcome to XFT's API documentation. XFT provides a permissionless yield-bearing stablecoin infrastructure for institutions. This documentation covers all APIs needed to integrate with our platform.</p>
+
+       <h2>Quick Start</h2>
+       <p>To get started with XFT APIs:</p>
+       <ul>
+           <li>Review the <a href="api-overview.html">API Overview</a></li>
+           <li>Check out our <a href="examples/README.html">Code Examples</a></li>
+           <li>Read the detailed <a href="guides/README.html">Integration Guide</a></li>
+       </ul>
+
+       <h2>Available APIs</h2>
+       <div class="endpoint">
+           <span class="method get">GET</span>
+           <code>/v1/accounts</code>
+           <p>View and manage XFT accounts</p>
+       </div>
+
+       <div class="endpoint">
+           <span class="method post">POST</span>
+           <code>/v1/deposits</code>
+           <p>Handle crypto deposits</p>
+       </div>
+
+       <div class="endpoint">
+           <span class="method post">POST</span>
+           <code>/v1/payouts</code>
+           <p>Process crypto payouts</p>
+       </div>
+   </main>
+</body>
+</html>
