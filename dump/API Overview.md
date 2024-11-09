@@ -1,3 +1,0 @@
-Reading file collections/API Overview.postman_collection.json
-Generating markdown file ...
-Documentation was created correctly collections/API Overview.md

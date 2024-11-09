@@ -1,3 +1,0 @@
-Reading file collections/Core Functionality.postman_collection.json
-Generating markdown file ...
-Documentation was created correctly collections/Core Functionality.md

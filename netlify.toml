@@ -1,0 +1,10 @@
+cat > netlify.toml << EOL
+[build]
+  publish = "docs"
+  command = ""
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+EOL
