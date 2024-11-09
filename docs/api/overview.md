@@ -1,5 +1,5 @@
-# Project: API Overview
-Common endpoints shared across all Circle APIs.
+# XFT API Overview
+Common endpoints shared across all XFT APIs.
 
 [API Reference](https://developers.circle.com/circle-mint/reference/ping)
 # 📁 Collection: Health 
