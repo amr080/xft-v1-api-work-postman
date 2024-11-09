@@ -1,0 +1,12 @@
+title: XFT API Documentation
+baseurl: ""
+url: ""
+
+markdown: kramdown
+theme: jekyll-theme-minimal
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
