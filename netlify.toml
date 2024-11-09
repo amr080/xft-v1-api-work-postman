@@ -1,17 +1,8 @@
-# Remove old file
-rm netlify.toml
-
-# Create new file with correct syntax
-echo '[build]
+[build]
   publish = "docs"
   command = ""
 
 [[redirects]]
   from = "/*"
   to = "/index.html"
-  status = 200' > netlify.toml
-
-# Push changes
-git add netlify.toml
-git commit -m "fix: netlify config"
-git push origin v2
+  status = 200
